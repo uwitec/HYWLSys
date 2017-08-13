@@ -1,0 +1,74 @@
+body {margin:0;color:#333; font-size:12px; }
+*{margin:0; padding:0;}
+body > div {margin-right:auto;	margin-left:auto;}
+img, a img{	border:0;margin:0;padding:0; vertical-align:middle;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, code, del, em, img, strong, sub, sup, b, u,{margin:0;padding:0;border:0;outline:0;vertical-align:baseline}
+table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+input,select {font-size:12px;vertical-align:absmiddle;}
+ul,h1,dl,dd,dt,p,h1,h2,h3{margin:0; padding:0; list-style:none;}
+a{ text-decoration:none; color:#333;}
+a:hover{ text-decoration:none; color:#F03;}
+.clear{clear:both;}
+.title{ float:left; text-indent:20px; font-size:16px;font-family:"微软雅黑";}
+.title1{font-size:14px;float:left; text-indent:15px; font-weight:bold; line-height:34px;}
+.more{ font-size:12px; float:right; padding-right:10px; padding-top:7px;}
+.more1{ font-size:12px; float:right; padding-top:10px; padding-right:20px; color:#666;}
+.more1 a{ color:#666;}
+.more1 a:hover{ color:#F03;}
+.more1 b{ float:left; margin-right:10px;}
+.white, a.white:link, a.white:visited, a.white:active {color:#fff}
+.cs, a.cs:link, a.cs:visited, a.cs:active { color:#FF3300}
+.red{ color:#F00}
+.huise{color:#999;}
+
+.pa10{padding-top:10px;}
+.bgf8{ background:#f8f8f8;}
+.mt20{margin-top:20px;}
+.mt10{margin-top:10px;}
+/*表单*/
+.w200{width:200px;}
+.w60{width:60px;}
+.inputer{ border:1px solid #d3d3d3; background:#f5f5f5; line-height:30px; height:30px; padding-left:10px; outline:none; color:#999}
+.passworder{ border:1px solid #d3d3d3; background:#f5f5f5; line-height:30px; height:30px; padding-left:10px; outline:none; color:#999}
+
+.btn_1{ width:232px; height:40px; background:url(../img/btn_1.jpg) no-repeat; cursor:pointer; border:none; color:#fff; font-size:16px; outline:none; margin-left:20px;font-family:"微软雅黑";}
+.btn_2 a{ width:232px; height:40px; background:url(../img/btn_1.jpg) no-repeat; display:block;font-size:16px;margin-left:20px;font-family:"微软雅黑"; color:#fff; line-height:40px; text-align:center;}
+
+/*结构*/
+.warp{ width:1200px; margin:0 auto; display:block; overflow:hidden;}
+.ADD{width:1200px; margin:0 auto; padding:20px 0; display:block; clear:both;}
+.left_warp{width:270px; float:left; overflow:hidden; display:block;}
+
+
+/*头部*/
+.i_headerbg1{ background:#555; height:30px; display:block; overflow:hidden; }
+.i_header1, .i_header2{width:1200px; display:block; overflow:hidden; margin:0 auto;}
+.i_header1 .head_ra{ float:left; line-height:30px; background:url(../img/i_tel.png) no-repeat left center; padding-left:20px; color:#FFF;}
+.i_header1 .head_rb{ float:right; line-height:30px; background:url(../img/i_sj.png) no-repeat left center; padding-left:20px; color:#FFF; padding-right:10px;}
+.i_header1 .head_rc{ float:right; line-height:30px; color:#FFF;}
+.i_header1 .head_rc a{padding:0 10px;}
+.i_navbg{ background:#fff; height:70px; display:block; overflow:hidden;border-bottom:#ededed solid 1px;}
+.i_logo{ float:left; padding-top:10px;}
+.naver{ width:600px; float:right; display:block; overflow:hidden; margin-top:30px;}
+.naver dd{float:left; text-align:center; font-size:16px; font-family:"微软雅黑"; height:40px; line-height:40px; padding:0 20px;}
+.naver dd a:hover{ background:url(../img/navbg.png) repeat-x; color:#03A9F4; display:block; height:40px;}
+.naver dd .nav_a{ background:url(../img/navbg.png) repeat-x; color:#03A9F4; display:block; height:40px;}
+
+/*底部*/
+.footbg{ background:#4A4949; display:block; overflow:hidden;}
+.footer{ width:1200px; display:block; overflow:hidden; margin:0 auto; padding:25px 0 10px 0}
+.footer .foot_left{width:700px; float:left; display:block;}
+.footer .foot_left dt{ display:block; padding-bottom:20px;}
+.footer .foot_left dd{ display:block; color:#fff; padding-top:60px;}
+.footer .foot_left a{padding:0 10px; color:#fff;}
+.footer .foot_left a:hover{ color:#F30}
+
+.footer .foot_right{ width:260px; float:right; display:block; overflow:hidden;}
+.footer .foot_right dt{ display:block; overflow:hidden; width:220px; background:url(../img/tel.png) no-repeat 0 0; padding-left:40px; color:#fff; padding-bottom:10px;}
+.footer .foot_right dt b{ font-size:20px; font-family:"微软雅黑";font-weight:normal;}
+.footer .foot_right dd{width:130px; float:left; text-align:center; color:#fff; line-height:30px;}
+
+
+
+
+

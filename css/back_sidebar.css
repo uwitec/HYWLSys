@@ -1,0 +1,69 @@
+.head{height:200px;}
+.sidebar{width:300px;height:500px;background-color: #bedaf5;opacity:0.8;}
+.foot{height:100px;}
+
+.leftMenu {
+	min-width:220px;
+    width:300px;
+	margin:5px auto 0 auto;
+}
+.menu {
+	border: #bdd7f2 1px solid;
+	border-top: #0080c4 4px solid;
+	background: #6fafff url(images/leftdhbg.jpg) repeat-y right;
+	opacity:0.8;
+}
+.menu .ListTitle {
+	border-bottom: 1px #98c9ee solid;
+	display: block;
+	text-align: center;
+	/*position: relative;*/
+	height: 38px;
+	line-height: 38px;
+	cursor: pointer;
+	/*+min-width:220px;*/
+
+	+width:100%;
+}
+.ListTitlePanel {
+	position: relative;
+}
+.leftbgbt {
+	position: absolute;
+	background: url(images/leftbgbt.jpg) no-repeat;
+	width: 11px;
+	height: 52px;
+	left: -11px;
+	top: -4px;
+}
+.leftbgbt2 {
+	position: absolute;
+	background: url(images/leftbgbt2.jpg) no-repeat;
+	width: 11px;
+	height: 48px;
+	left: -11px;
+	top: -1px;
+}
+.menuList {
+	display: block;
+	height: auto;
+}
+.menuList div {
+	height: 28px;
+	line-height: 24px;
+	border-bottom: 1px #98c9ee dotted;
+}
+.menuList div a {
+	display: block;
+	background: #fff;
+	line-height: 28px;
+	height: 28px;
+	text-align: center;
+	color: #185697;
+	text-decoration: none;
+}
+.menuList div a:hover {
+	color: #f30;
+	background: #0080c4;
+	color: #fff;
+}

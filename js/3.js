@@ -1,0 +1,1 @@
+!function(e,t,i,a,r,n,o){e.GoogleAnalyticsObject=r,e[r]=e[r]||function(){(e[r].q=e[r].q||[]).push(arguments)},e[r].l=1*new Date,n=t.createElement(i),o=t.getElementsByTagName(i)[0],n.async=1,n.src=a,o.parentNode.insertBefore(n,o)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-42077350-1","bfb56.com"),ga("send","pageview");

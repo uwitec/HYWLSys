@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+body{margin:0;padding:0;font-size:12px;font-family: '微软雅黑',Arial,Helvetica,sans-serif;background:#fff;}/*文档清零,字体,字号,背景设置.*/
+
+div,ul,li,p,form,h1,h2,h3,h4,h5,input,dl,dt,dd,fieldset,table,tr,td{margin:0;padding:0;}/*边界元素清零*/
+
+ul,li,ol{list-style:none;}/*去除列表符号*/
+
+img{border:none;}/*去除图片按钮边框*/
+
+a{text-decoration:none;}/*去除超链接下划线*/
+img,input,textarea{vertical-align:middle;}
+input{outline:none;}
+.clear{clear:both;}
+.new_main{
+	background:#fff;
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑";
+}
+.hz_importance{
+	background:#fff;
+}
+.rzzc_div{
+	width:1174px;
+	margin:0 auto;
+	padding:8px 38px 30px 38px;
+	background:#fafdff;
+}
+.grrz_div{
+	background:none;
+	width:1240px;
+	padding:0;
+	padding-bottom:38px;
+}

@@ -1,0 +1,319 @@
+@import
+	url(../css/1.css)
+	;
+
+#main{width: 1000px;margin-top: 100px;margin-left: 150px;}
+
+#nav .navr {
+	background-image:
+		url(images/3.jpg);
+	background-repeat: repeat-x;
+	background-position: right 0;
+	color: #333;
+	font-weight: bolder
+}
+
+#nav .navr:link, #nav .navr:visited {
+	color: #333
+}
+
+#header, #topCont,  #footer {
+	clear: both;
+	width: 980px
+}
+
+#main {
+	margin-bottom: 30px
+}
+
+h2 {
+	font-size: 16px;
+	padding: 10px;
+	background-color: #FFFCF0;
+	margin-bottom: 10px
+}
+
+.loginPageDoc {
+	background:
+		url(http://www.bfb56.com/assets/vo/login-page-doc-eba41f0213ff9fec65c08591a31d44ce.jpg)
+		no-repeat;
+	height: 400px
+}
+
+.loginPageAll {
+	background:
+		url(http://www.bfb56.com/assets/vo/login-page-all-dc03466d5cc9b5c152b1ad48c31ebef9.jpg)
+		no-repeat;
+	height: 400px
+}
+
+#logon {
+	font-size: 14px;
+	height: 100%;
+	float:right;
+	margin-right:170px;
+	width:298px;
+	border: 1px solid #cccccc
+}
+
+#loginTitle {
+	height: 15px;
+	background:
+		url(http://www.bfb56.com/assets/vo/icon-78bc2814fd71f0c97978c05cf13f3756.png)
+		no-repeat 0 -331px;
+	margin-bottom: 20px;
+	width: 100px
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none
+}
+
+fieldset label {
+	line-height: 2.4
+}
+
+.inputtext {
+	width: 251px;
+	border: 1px solid #ccc;
+	padding: 4px;
+	font-family: arial, sans-serif;
+	border-radius: 3px
+}
+
+.logBtn {
+	padding: 15px 0
+}
+
+.logBtn a {
+	font-size: 12px
+}
+
+.logBtn input {
+	height: 32px;
+	width: 261px;
+	border: none;
+	background:
+		url(http://www.bfb56.com/assets/vo/login-w-03c2b8e87a12d5556f4021fa38418b5f.png)
+		no-repeat 0 0;
+	cursor: pointer
+}
+
+.logBtn input:hover {
+	opacity: .9;
+	filter: alpha(opacity = 90)
+}
+
+.regLink {
+	display: block;
+	height: 30px;
+	width: 86px;
+	background:
+		url(http://www.bfb56.com/assets/vo/icon-78bc2814fd71f0c97978c05cf13f3756.png)
+		no-repeat 0 -281px
+}
+
+.subm {
+	display: none
+}
+
+.erText {
+	background:
+		url(http://www.bfb56.com/assets/reg3-d31f4bcf59107c20e22114e38272c940.gif)
+		no-repeat 0 -2px;
+	font-size: 12px;
+	padding: 5px;
+	color: #E64D00;
+	padding: 0 0 0 25px
+}
+
+#logon p {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	color: #666;
+	padding: 0 0 10px 0
+}
+
+.clearfix:after {
+	content: '\0020';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.clearfix {
+	zoom: 1
+}
+
+#n-footer {
+	color: #333333;
+	margin: 20px auto 20px;
+	padding: 0
+}
+
+.footer-list {
+	margin: 0;
+	padding: 0;
+	background-color: #fafafa;
+	border-bottom: 1px solid #dedede;
+	border-top: 1px solid #dedede;
+	height: 31px;
+	line-height: 31px;
+	text-align: center
+}
+
+.focusprod {
+	color: #666666;
+	line-height: 1.8;
+	margin: 10px auto 0;
+	width: 940px;
+	text-align: center
+}
+
+#n-footer table {
+	margin: 0 auto;
+	text-align: center;
+	width: auto
+}
+
+.operate {
+	margin: 0;
+	text-align: center
+}
+
+#n-footer .footer-list li {
+	display: inline;
+	padding: 0 16px
+}
+
+#n-footer p {
+	margin-top: 0;
+	margin-bottom: 0
+}
+
+#reg .bbut {
+	border: none;
+	width: 72px;
+	height: 30px;
+	padding: 0;
+	background:
+		url(http://www.bfb56.com/assets/vo/buts-735d9d8cb66b1dd7705d745255f1a1fa.png)
+		no-repeat 0 0;
+	margin-top: 5px;
+	cursor: pointer
+}
+
+div.error {
+	background-color: #feeaea;
+	background-image:
+		url(http://www.bfb56.com/assets/reg3-d31f4bcf59107c20e22114e38272c940.gif);
+	background-repeat: no-repeat;
+	color: #FF0000;
+	font-size: 12px;
+	margin-top: 2px;
+	padding: 1px 3px 3px 24px;
+	width: 260px
+}
+
+#n-footer td {
+	vertical-align: middle
+}
+
+#logon a {
+	font-size: 12px
+}
+
+.txtimg-show {
+	float: left;
+	width: 400px;
+	height: 398px;
+	background:
+		url(../images/3.jpg)
+		no-repeat;
+	margin-left: 33px;
+	display: inline
+}
+
+.memberzone {
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background:
+		url(http://www.bfb56.com/assets/vo/tabbg-c0b08f51535f0e40fd786f02d10adcf6.png)
+		repeat-x
+}
+
+.memberzone li {
+	float: left;
+	font-size: 14px;
+	color: #666666;
+	padding: 0 20px;
+	cursor: pointer;
+	position: relative
+}
+
+.memberzone .present {
+	color: #333;
+	background-color: #fff;
+	font-weight: bold;
+	padding: 0 19px;
+	border-top: 2px solid #0c68b3;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #fff;
+	margin: -1px 0 0 -1px;
+	height: 34px
+}
+
+.tabcon {
+	padding: 15px 18px
+}
+
+.wrapdiv {
+	padding-bottom: 5px
+}
+
+#logon .forget {
+	float: right;
+	margin: 6px 0 0 0
+}
+
+.logbtnre {
+	padding: 8px 0 12px
+}
+
+.vercode .inputtext {
+	width: 90px;
+	float: left
+}
+
+#logon iframe {
+	float: left;
+	margin: 0 10px;
+	display: inline
+}
+
+#logon .changeimg {
+	float: left;
+	width: 42px;
+	color: #666;
+	margin-top: -4px;
+	_margin-left: -3px;
+	position: relative
+}
+
+#logon .madein {
+	line-height: 1.5;
+	padding: 0
+}
+
+.openapi_icon img {
+	margin: 5px 5px
+}

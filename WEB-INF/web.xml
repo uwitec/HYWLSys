@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>HYWLWeb</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>beforeindex.do</welcome-file>
+  </welcome-file-list>
+  <context-param>
+  <param-name>encoding</param-name>
+  <param-value>utf-8</param-value>
+  </context-param>
+  
+  <servlet>
+  <servlet-name>fowardservlet</servlet-name>
+  <servlet-class>com.hywl.action.BackFowardServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>fowardservlet</servlet-name>
+  <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+ 
+     <servlet>
+  <servlet-name>ShipperServlet</servlet-name>
+  <servlet-class>com.hywl.action.ShipperServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ShipperServlet</servlet-name>
+  <url-pattern>*.done</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>DriverServlet</servlet-name>
+  <servlet-class>com.hywl.action.DriverServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>DriverServlet</servlet-name>
+  <url-pattern>*.action</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>SysUserServlet</servlet-name>
+  <servlet-class>com.hywl.action.SysUserServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>SysUserServlet</servlet-name>
+  <url-pattern>*.go</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>newsServlet</servlet-name>
+  <servlet-class>com.hywl.action.NewsServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>newsServlet</servlet-name>
+  <url-pattern>/newsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+  <filter-name>encodeFilter</filter-name>
+  <filter-class>com.hywl.filter.EncodeFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  <filter-name>encodeFilter</filter-name>
+  <url-pattern>/*</url-pattern>
+  </filter-mapping>
+</web-app>
